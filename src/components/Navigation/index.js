@@ -107,13 +107,13 @@ const Navigation = memo((): React$Node => {
             >
               <ul>
                 <li>
-                  <Link to={'/services/?t=accounts'}>Management Team</Link>
+                  <Link to={'/'}>Management Team</Link>
                 </li>
                 <li>
-                  <Link to={'/services/?t=credits'}>Tech Governors</Link>
+                  <Link to={'/'}>Tech Governors</Link>
                 </li>
                 <li>
-                  <Link to={'/services/?t=sme-loans'}>Advisory Board</Link>
+                  <Link to={'/'}>Advisory Board</Link>
                 </li>
               </ul>
             </div>
