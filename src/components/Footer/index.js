@@ -2,7 +2,6 @@
 import {default as React, memo} from 'react'
 import {Link} from 'react-router-dom'
 import {FontAwesomeIcon as Icon} from '@fortawesome/react-fontawesome'
-import {faArrowCircleRight} from '@fortawesome/free-solid-svg-icons'
 import {
   faTwitter,
   faFacebook,
@@ -10,7 +9,6 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 import Container from './styles'
-import {Button, Divider} from '../../urgent-fury'
 
 const Footer = memo((): React$Node => {
   return (
