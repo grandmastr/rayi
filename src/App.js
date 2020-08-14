@@ -49,7 +49,7 @@ function App() {
           <Route path={'/partners'} component={Partners} />
         </Switch>
         <Footer />
-        {/*<Scroll />*/}
+        <Scroll />
       </Router>
     </ThemeProvider>
   )

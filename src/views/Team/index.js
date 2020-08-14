@@ -2,7 +2,6 @@
 import React from 'react'
 
 import Container from './styles'
-import {Hero} from '../../components'
 
 const Team = (): React$Node => {
   return (

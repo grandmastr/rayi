@@ -2,7 +2,6 @@
 import React from 'react'
 
 import {FontAwesomeIcon as Icon} from '@fortawesome/react-fontawesome'
-import {faArrowCircleRight} from '@fortawesome/free-solid-svg-icons'
 import {
   faTwitter,
   faFacebook,
@@ -10,7 +9,6 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 import Container from './styles'
-import {Hero} from '../../components'
 import {Button} from '../../urgent-fury'
 
 const Contact = (): React$Node => {

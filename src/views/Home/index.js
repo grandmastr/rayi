@@ -1,8 +1,6 @@
 //@flow
 import {default as React, memo} from 'react'
 import {useHistory} from 'react-router-dom'
-import {FontAwesomeIcon as Icon} from '@fortawesome/react-fontawesome'
-import {faArrowCircleRight} from '@fortawesome/free-solid-svg-icons'
 
 import {Container, Banner as BannerContainer} from './styles'
 import {Button} from '../../urgent-fury'
