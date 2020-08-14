@@ -89,8 +89,9 @@ const Navigation = memo((): React$Node => {
             className={`${className('services') || ''} services`}
             onClick={() => setDropDownOpen(c => !c)}
           >
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
-              href={'#'}
+              href={'/'}
               aria-expanded={dropDownOpen}
               aria-controls={'our-team'}
             >
