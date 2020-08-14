@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import {maxWidth, navHeight} from '../../constants'
+import {maxWidth} from '../../constants'
 import {setMaxWidth, query} from '../../helpers/media'
 
 export const Banner = styled.div`
