@@ -90,9 +90,9 @@ const Navigation = memo((): React$Node => {
             onClick={() => setDropDownOpen(c => !c)}
           >
             <a
-              href={'#top'}
+              href={'#'}
               aria-expanded={dropDownOpen}
-              aria-controls={'our-services'}
+              aria-controls={'our-team'}
             >
               team{' '}
               <span className={dropDownOpen ? 'dropdown-expanded' : ''}>
